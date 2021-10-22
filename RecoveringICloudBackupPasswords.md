@@ -4,7 +4,7 @@ The Goal of this demo was to attain any information from your computer that woul
 
 # Getting Icloud Backup From Itunes
 Use the settings below to create a backup of your apple device if you do not have any backups on your machine.
-![itunes settings](./ItunesBackupSettings.PNG)
+![itunes settings](/ItunesBackupSettings.PNG)
 
 # Finding Passwords Already On Your Machine And Saving Them To A Dictionary
 Open Passware Digital Forensic Kit and select 'Internet and Network'
