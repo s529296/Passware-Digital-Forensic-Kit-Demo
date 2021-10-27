@@ -33,7 +33,9 @@ Now go to the home screen in your Passware software and select 'Mobile & Cloud F
 Once you are on 'Mobile & Cloud Forensics', select 'Iphone Backup'
 ![](Screenshots/iphoneBackup1.PNG)
 Now use the path you found for your Icloud backups to select the 'Manifest.PLIST' of the backup you want to
+
 ![](Screenshots/iphoneBackup2.PNG)
+ 
 Now select Customize Settings and Clear out all the default options.
 ![](Screenshots/crackSettings.PNG)
 Add a new dictionary attack using the found password dictionary we created earlier and begin attacking.
