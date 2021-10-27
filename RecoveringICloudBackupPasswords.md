@@ -8,7 +8,7 @@ Use the settings below to create a backup of your apple device, only if you do n
 
 # Finding Passwords Already On Your Machine And Saving Them To A Dictionary
 Open Passware Digital Forensic Kit and select 'Internet and Network' from the home page.
-![](Screenshots/findYourPasswords1.PNG)
+![](Screenshots/findYourPasswords1.PNG)     
 Click on Websites and it should begin searching for any passwords stored by any internet browser on the local machine.
 ![](Screenshots/findYourPasswords2.PNG)
 Copy and paste all the passwords it found on your machine into a text file and save it somewhere you can find it.
@@ -20,3 +20,11 @@ Now go to the home screen of the Passware software and click
 Inside Dictionary Manager Click 'add dictionary' and use the below screenshot as a template for adding your found passwords as a dictionary
 ![](Screenshots/findYourPasswords4.PNG)
 Once you have your dictionary of found passwords added, it can be used within the other passware tools and you are ready for the next step.
+
+# Cracking Your Icloud Backup
+Step one is to locate the itunes backup folder on your machine. Use the run command below and follow the screenshots to find your backup file location.
+![](Screenshots/runCommandItunesBackupFolder.PNG)
+![](Screenshots/backupFolder1.PNG)
+![](Screenshots/backupFolder2.PNG)
+![](Screenshots/backupFolder3.PNG)
+Keep the path for the directory available by copying it into your clipboard, or keeping the explorer window open so you can re-copy the file location into passware.
