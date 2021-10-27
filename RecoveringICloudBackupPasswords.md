@@ -40,5 +40,14 @@ Add a new dictionary attack using the found password dictionary we created earli
 ![](Screenshots/iphoneBackup3.PNG)
 Crack Succesfull.
 ![](Screenshots/pwCracked.PNG)
+
+# Cracking Your IOS Keychain
+Now that we have our backup password go back to home and navigate into the 'mobile and cloud forensics' and click on IOS Keychain.
+From there attach your backup folder we located early and enter the password we found in the previous step.
+![](Screenshots/GettinginfoFromIcloud.PNG)
+
+Once you have entered those settings you may begin to run and it will begin searching for any passwords inside your Itunes backup. 
+![](Screenshots/recoverFilePW.PNG)
+
 ~~~~
 
