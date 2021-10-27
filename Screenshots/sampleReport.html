@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>Passware recovery report</title>
+<style>
+body {
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+button {
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: inherit;
+
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+
+    cursor: text;
+    outline: none;
+}
+
+.globalReport_fileIconContainer {
+    display: none;
+}
+.globalReport_separator{height:1px;width:100%;background:rgba(0,0,0,.1);margin-top:8px;margin-bottom:10px}.globalReport_password{font-size:14px;color:#57a300;background:rgba(89,163,1,.15);border-radius:3px;padding:2px 6px;line-height:16px;display:inline-block;margin-top:-3px;margin-bottom:2px;margin-right:6px;font-feature-settings:'tnum';font-weight:700;word-break:break-all;white-space:pre-wrap;transition:background .2s ease;cursor:pointer}.globalReport_password:hover{transition-duration:80ms;background:rgba(89,163,1,.3)}.globalReport_password:active{background:rgba(89,163,1,.4)}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.globalReport_passwordCopied{font-size:14px;letter-spacing:1px;text-transform:uppercase;color:#fff;background:#57a300;border-radius:3px;padding:0 9px;line-height:20px;display:inline-block;position:absolute;top:50%;margin-top:-11px;margin-left:4px;animation:fadeIn .1s 1}.globalReport_passwordCopiedFading{animation:fadeOut .5s 1 ease-out forwards}.globalReport_passwordCopied:before{display:block;position:absolute;content:' ';height:50%;top:0;left:-2px;width:6px;background:#57a300;transform:skewX(-25deg);border-top-left-radius:2px}.globalReport_passwordCopied:after{display:block;position:absolute;content:' ';height:50%;bottom:0;left:-2px;width:6px;background:#57a300;transform:skewX(25deg);border-bottom-left-radius:2px}.globalReport_directoryContaner{display:flex;border-top:rgba(0,0,0,.1) 1px solid;padding-top:12px}.globalReport_directory{color:#57a300;font-weight:700;cursor:pointer;border-radius:3px;padding:3px 6px;margin-left:-6px;margin-top:-3px;margin-bottom:-3px;transition:background .2s ease}.globalReport_directory *{cursor:pointer}.globalReport_directory:hover{transition-duration:80ms;color:#57a300;background:rgba(89,163,1,.15)}.globalReport_directory:active{background:rgba(89,163,1,.4)}.globalReport_firstCell{min-width:62px;max-width:160px;padding-right:20px}.globalReport_notFound{font-weight:700}.globalReport_inlinePassword{margin-right:12px;display:inline-block}.globalReport_inlinePasswordKey{text-transform:capitalize;opacity:.7}.globalReport_link{color:#1e85d9;text-decoration:none;transition:color .2s ease;cursor:pointer}.globalReport_link:hover{transition-duration:80ms;color:#1766a6}.globalReport_link:active{color:#104673}.globalReport_tableHeader{border-collapse:collapse;margin-top:7px}.globalReport_tableHeader td{padding:0 10px 4px 0;vertical-align:top}.globalReport_tableReport{border-collapse:collapse}.globalReport_tableReport td{padding:0 10px 6px 0;vertical-align:top}.globalReport_fileInfoContainer{display:flex;padding-top:19px;margin-bottom:24px}.globalReport_fileIconContainer{width:139px;height:100px;flex-shrink:0;padding-left:30px}.globalReport_fileIcon{width:90px}.globalReport_header{font-size:24px;color:#000;letter-spacing:0;line-height:28px;font-weight:700}.globalReport_monospaced{font-size:12px;letter-spacing:1.09px;line-height:20px;font-feature-settings:'tnum';text-transform:uppercase}.globalReport_tableHeaderHuawei .globalReport_firstCell{max-width:180px}.globalReport_tableHeaderHuawei tr[data-type=account]~tr[data-type=account]>td{padding-top:60px}.globalReport_tableHeaderHuawei td.globalReport_groupName{padding-top:16px}td.globalReport_groupName{font-weight:700}.globalReport_infoUnderProtectionValue{font-size:11px;color:rgba(0,0,0,.6);margin-top:4px;line-height:1.6em}</style>
+<div><div class="globalReport_fileInfoContainer"><div class="globalReport_fileIconContainer"><img class="globalReport_fileIcon" src="dist/d6ce1942c9f3716151600ca0e709bf37.png" alt=""></div><div style="width: 100%;"><div class="globalReport_header" data-tid="fileName">Manifest.plist</div><table data-tid="fileParams" class="globalReport_tableHeader"><colgroup><col style="width: 10%;"><col style="width: 15%;"><col style="width: 75%;"></colgroup><tbody><tr><td class="globalReport_firstCell">Folder</td><td colspan="2"><button type="button" class="index__button__3S-aI index__isBlackUntilHovered__1cYcx" title="Show file in folder"><span>C: ⟩ Users ⟩ s529296 ⟩ Apple ⟩ MobileSync ⟩ Backup ⟩ 00008020-00056C643E06002E</span></button></td></tr><tr><td class="globalReport_firstCell">File Type</td><td colspan="2">iTunes Backup 15.0 — <span>Open Password</span><span>, Hardware acceleration possible</span></td></tr><tr><td class="globalReport_firstCell">Complexity</td><td colspan="2"><div title="4 of 5" style="display: inline-block;"><div style="background-color: rgba(0, 0, 0, 0.5); width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-right: 2px; vertical-align: middle; margin-top: -1px;"></div><div style="background-color: rgba(0, 0, 0, 0.5); width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-right: 2px; vertical-align: middle; margin-top: -1px;"></div><div style="background-color: rgba(0, 0, 0, 0.5); width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-right: 2px; vertical-align: middle; margin-top: -1px;"></div><div style="background-color: rgba(0, 0, 0, 0.5); width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-right: 2px; vertical-align: middle; margin-top: -1px;"></div><div style="background-color: rgba(0, 0, 0, 0.15); width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-right: 2px; vertical-align: middle; margin-top: -1px;"></div></div> Brute-force - Slow</td></tr><tr><td class="globalReport_firstCell globalReport_monospaced">MD5: </td><td colspan="2" class="globalReport_monospaced" data-tid="reportMd5Hash">16F5B8288F369B024AE5FE36B8F20E74</td></tr><tr><td colspan="3"><div class="globalReport_separator"></div></td></tr><tr data-tid="PasswordsGroup" data-guid="a44a8623-cbff-47d8-9d29-fa86c5534a92" data-type="open-password"><td rowspan="1">Password:</td><td data-tid="">File-Open</td><td><span data-tid="Password"><span><span><span title="Copy to clipboard" style="position: relative; padding: 0px;"><span class="globalReport_password" data-tid="foundPassword">1234</span></span></span>&nbsp;&nbsp;&nbsp;</span> </span></td></tr><tr><td colspan="3"><div style="padding-bottom: 30px;"></div></td></tr></tbody></table></div></div><div style="height: 1px; background: none;"></div></div>
+<script type="text/javascript">
+Array.prototype.forEach.call(
+    document.querySelectorAll('[title]'),
+    function(el) {el.removeAttribute('title')}
+)
+</script>
+<!-- raw reports and clues in JSON format
+Clues:
+[
+    {
+        "__objectId__": "4f735e39-c099-4c98-abf0-61452cb1ec13",
+        "__type__": "Clue",
+        "attackFlags": [
+            {
+                "className": "message",
+                "id": "flag: Hardware acceleration possible",
+                "params": []
+            }
+        ],
+        "complexity": {
+            "className": "message",
+            "id": "type: Hard",
+            "params": []
+        },
+        "descriptor": {
+            "attackFlags": 131072,
+            "flags": 1,
+            "strength": 5,
+            "subtype": 983040,
+            "type": 45
+        },
+        "flags": [
+            {
+                "className": "message",
+                "id": "flag: Has open password",
+                "params": []
+            }
+        ],
+        "id": "F0C2DB7B62D5DE27E71745E5903902CBD724B999",
+        "isUnsupportedForPlatform": false,
+        "path": "C:\\Users\\s529296\\Apple\\MobileSync\\Backup\\00008020-00056C643E06002E\\Manifest.plist",
+        "subClues": [],
+        "targetHash": "4ADFF74DF8F2DB639B029F74492B0432",
+        "type": {
+            "className": "message",
+            "id": "type: iTunes Backup %1",
+            "params": [
+                {
+                    "type": "string",
+                    "value": "15.0"
+                }
+            ]
+        }
+    }
+]
+Reports:
+{
+    "F0C2DB7B62D5DE27E71745E5903902CBD724B999": {
+        "passwordsFound": 1,
+        "report": {
+            "protectionContainers": [
+                {
+                    "className": "protectionContainer",
+                    "complexity": "slow-brute-force",
+                    "id": "F0C2DB7B62D5DE27E71745E5903902CBD724B999",
+                    "protection": {
+                        "attackFlags": [
+                            "hardwareAccelerated"
+                        ],
+                        "flags": [
+                            {
+                                "className": "message",
+                                "id": "flag: Has open password",
+                                "params": []
+                            }
+                        ],
+                        "format": {
+                            "className": "message",
+                            "id": "type: iTunes Backup %1",
+                            "params": [
+                                {
+                                    "type": "string",
+                                    "value": "15.0"
+                                }
+                            ]
+                        }
+                    },
+                    "protectionItems": [
+                        {
+                            "password": {
+                                "createdBy": "user",
+                                "status": "persisted",
+                                "value": "1234"
+                            },
+                            "type": "open-password"
+                        }
+                    ],
+                    "source": [
+                        {
+                            "className": "file",
+                            "filename": "Manifest.plist",
+                            "folder": "C:\\Users\\s529296\\Apple\\MobileSync\\Backup\\00008020-00056C643E06002E\\",
+                            "md5": "16F5B8288F369B024AE5FE36B8F20E74"
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "recoveredItemsQty": "1"
+            }
+        }
+    }
+}
+-->
