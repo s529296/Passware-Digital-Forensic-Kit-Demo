@@ -10,3 +10,6 @@ Use the settings below to create a backup of your apple device, only if you do n
 Open Passware Digital Forensic Kit and select 'Internet and Network' from the home page.
 ![](Screenshots/findYourPasswords1.PNG)
 Click on Websites and it should begin searching for any passwords stored by any internet browser on the local machine.
+![](Screenshots/findYourPasswords2.PNG)
+Copy and paste all the passwords it found on your machine into a text file and save it somewhere you can find it.
+NOTE: Make sure you delete this file at the conclusion of the demo if you have current passwords saved in the text file.
