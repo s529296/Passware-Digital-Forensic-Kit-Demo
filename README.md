@@ -8,7 +8,7 @@ The purpose of this workshop is to demo Passware Digital Forensic Kit to see wha
 
 # Topics Covered
 
-1.  [Decrypting Itunes backup using passwords found on the local machine](https://github.com/s529296/Passware-Digital-Forensic-Kit-Demo/blob/main/RecoveringICloudBackupPasswords.md). Presented by Noah Chase
+1.  [Decrypting Itunes backup using passwords found on the local machine](https://github.com/s529296/Passware-Digital-Forensic-Kit-Demo/blob/main/RecoveringICloudBackupPasswords.md). Presented by Noah Chase ![](https://avatars.githubusercontent.com/u/42814547?s=40&v=4)
 2.  [Decrypting different types of files and looking for passwords in memory](https://github.com/s529296/Passware-Digital-Forensic-Kit-Demo/blob/main/Praneeth). Presented by Praneeth Vallabhaneni
 
 # Passware's Generated Report Example
