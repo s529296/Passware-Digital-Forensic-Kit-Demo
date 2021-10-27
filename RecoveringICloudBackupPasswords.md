@@ -28,3 +28,15 @@ Step one is to locate the itunes backup folder on your machine. Use the run comm
 ![](Screenshots/backupFolder2.PNG)
 ![](Screenshots/backupFolder3.PNG)
 Keep the path for the directory available by copying it into your clipboard, or keeping the explorer window open so you can re-copy the file location into passware.
+
+Now go to the home screen in your Passware software and select 'Mobile & Cloud Forensics'.
+Once you are on 'Mobile & Cloud Forensics', select 'Iphone Backup'
+![](Screenshots/iphoneBackup1.PNG)
+Now use the path you found for your Icloud backups to select the 'Manifest.PLIST' of the backup you want to
+![](Screenshots/iphoneBackup2.PNG)
+Now select Customize Settings and Clear out all the default options.
+![](Screenshots/crackSettings.PNG)
+Add a new dictionary attack using the found password dictionary we created earlier and begin attacking.
+![](Screenshots/iphoneBackup3.PNG)
+Crack Succesfull.
+![](Screenshots/pwCracked.PNG)
